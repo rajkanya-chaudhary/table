@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+nav h1{
+    font-size: 40px;
+    color: red;
+    border-bottom:5px solid rgba(250,10,10,0.801);
+    border-radius: 40px;
+    
+}
+ul{
+    display: flex;
+}
+ul li
+{
+    list-style: none;
+    margin-inline: 30px;
+    
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+ul li a::after
+{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: red;
+    display: red;
+    transition: 0.2s linear;
+}
+ul li a:hover
+{
+    color: rgba(250,10,10,0.801);
+}
+.btn button
+{
+    width: 100px;
+    height: 36px;
+    border: 3px solid rgba(250,10,10,0.801);
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+.btn button a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+.main-div .head
+{
+    font-size: 50px;
+    margin-left: 40px;
+
+}
+.head button
+{
+    height: 40px;
+    width: 160px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+}
+.head button:hover
+{
+    background-color: black;
+    border: 3px solid rgba(250,10,10,0.801);
+    cursor: pointer;
+}
+.img img
+{
+margin-right: 30px;
+width: 570px;
+}
