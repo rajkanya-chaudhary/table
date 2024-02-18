@@ -1,0 +1,40 @@
+.container{
+    height: 300px;
+    width: 800px;
+    margin-left: 200px;
+    margin-right: 300px;
+    padding: 40px;
+    box-shadow: 10px 10px 20px 10px cyan;
+    display: flex;
+}
+.box{
+    border: 10px solid black;
+    height: 300px;
+    width: 100%;
+    margin-left: 40px;
+}
+img{
+    height: 300px;
+    width: 100%;
+}
+label{
+    color: goldenrod;
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 20px;
+}
+input{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 40px;
+    margin-left: 70px;
+    height: 40px;
+    width: 70px;
+    color: #fff;
+    background-color: black;
+    border-radius: 20px;
+}
